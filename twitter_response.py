@@ -21,7 +21,7 @@ from twython import TwythonStreamer
 ... 
 
 >>> stream=MyStreamer(c_k,c_s,a_t,a_s)
->>> stream.statuses.filter(track="Ian G. Harris/Any Search String On Your Twitter Page")
+>>> stream.statuses.filter(track="Ian G. Harris/Any Search String for Your Twitter Page")
 
 Ian G. Harris is popular! #OUTPUT For Third time
 Ian G. Harris is popular! #OUTPUT for Fourth time
